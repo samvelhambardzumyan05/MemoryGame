@@ -1,0 +1,115 @@
+#main{
+  height: 600px;
+  width: 600px;
+  background-color: #E5E5E5;
+  margin:0 auto;
+  padding: 15px;
+  display: none;
+  justify-content:space-between;
+  flex-wrap: wrap-reverse;
+
+  
+}
+.unclick{
+  pointer-events: none;
+}
+table, th, td {
+  border: 1px solid;
+  border-collapse: collapse;
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#start{
+  display: flex;
+  padding: auto;
+  
+}
+#history{
+  display: none;
+
+}
+.elements{
+  width: 140px;
+  height: 140px;
+  background-color: #1D97BD;
+  display: inline-block;
+}
+.elem{
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.d-none{
+  display: none;
+}
+.start_button{
+  width: 150px;
+
+  height: 75px;
+
+  border-radius: 20px;
+
+  border-color: aqua;
+
+  color: aqua;
+
+  font-family: Arial, Helvetica, sans-serif;
+
+  font-size: 40px;
+
+  font-style: normal;
+}
+.relod_button{
+  
+
+  border-radius: 20px;
+
+  border-color: aqua;
+
+  color: aqua;
+
+  font-family: Arial, Helvetica, sans-serif;
+
+  font-size: 40px;
+
+  font-style: normal;
+}
+.game_time{
+  font-family: Arial, Helvetica, sans-serif;
+
+  font-size: 40px;
+
+  font-style: normal;
+  color: aqua;
+  margin: 20px;
+}
+
+
+
+
+
+
+
+.history_button{
+
+  width: 150px;
+
+  height: 75px;
+
+  border-radius: 20px;
+
+  border-color: aqua;
+
+  color: aqua;
+
+  font-family: Arial, Helvetica, sans-serif;
+
+  font-size: 40px;
+
+  font-style: normal;
+
+}
